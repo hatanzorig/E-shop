@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн дэлгүүр</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🧭 Хэрчээст цэс -->
+  <header>
+    <h1>MiniMart</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Нүүр</a></li>
+        <li><a href="products.html">Бараанууд</a></li>
+        <li><a href="checkout.html">Захиалга</a></li>
+        <li><a href="contact.html">Холбоо барих</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🎯 Баннер эсвэл Слайдер -->
+  <section class="banner">
+    <h2>Танд хэрэгтэй бүхнийг нэг дороос!</h2>
+    <p>Олон төрлийн хямдралтай бараануудыг үзэх бол товшино уу.</p>
+    <a href="products.html" class="btn">Бараа үзэх</a>
+  </section>
+
+  <!-- 🧺 Барааны ангилал -->
+  <section class="categories">
+    <h3>Ангиллууд</h3>
+    <div class="category-grid">
+      <div class="category-card">👕 Хувцас</div>
+      <div class="category-card">👟 Гутал</div>
+      <div class="category-card">🏠 Гэр ахуй</div>
+      <div class="category-card">💄 Гоо сайхан</div>
+    </div>
+  </section>
+
+  <!-- 🛒 Онцлох бараа -->
+  <section class="featured">
+    <h3>Онцлох бараанууд</h3>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="img/product1.jpg" alt="Бараа 1">
+        <h4>Барааны нэр</h4>
+        <p>Үнэ: 49,000₮</p>
+        <a href="product-detail.html" class="btn">Дэлгэрэнгүй</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📞 Холбоо барих + чат -->
+  <footer>
+    <p>📧 info@minimart.mn | ☎️ 7777-8888</p>
+  </footer>
+
+  <!-- 💬 Live chat -->
+  <script>
+    const chatBtn = document.createElement('button');
+    chatBtn.innerText = "💬 Чатлах";
+    chatBtn.style.position = "fixed";
+    chatBtn.style.bottom = "20px";
+    chatBtn.style.right = "20px";
+    document.body.appendChild(chatBtn);
+  </script>
+
+</body>
+</html>
